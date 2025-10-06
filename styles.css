@@ -126,10 +126,7 @@ main > div:nth-child(1) {
         justify-content: center;
         margin-top: 14px;
         font-size: 16px;
-    }
-    section form input:active{
-        outline: 2px solid var(--principal--color);
-        border: none;
+        outline: none;
     }
     section form button {
         background-color: var(--principal--color);
