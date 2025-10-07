@@ -127,6 +127,7 @@ main > section select {
     margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    border: none;
 }
 select:nth-child(1) {
     margin-left: 14.5rem;
@@ -160,8 +161,51 @@ main > footer {
             margin-bottom: 1rem;
             color: #c4c4c4;    
         }
+        button {
+            background-color: var(--principal--color);
+            color: white;
+            border-radius: 12px;
+            padding: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            position: absolute;
+            left: 68rem;
+            width: 5rem;
+            height: 2.5rem;     
+            cursor: pointer;      
+        }
     } 
 }
 article.article {
     border-bottom: none;
 }
+
+body > footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+body > footer button {
+    background: none;
+    color: var(--color--blur);
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}  
+body > footer button:hover {
+    color: white;
+    background-color: var(--principal--color);
+    border-radius: 12px;
+    width: 2rem;
+    height: 2rem;
+}
+
