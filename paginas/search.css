@@ -153,7 +153,7 @@ main > footer {
         h3 {
             margin-bottom: 1rem;
         }
-        h4{
+        small{
             margin-bottom: 1rem;
             color: var(--color--blur);    
         }
@@ -190,7 +190,7 @@ body > footer {
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
-body > footer button {
+body > footer a {
     background: none;
     color: var(--color--blur);
     padding: 10px;
@@ -201,7 +201,7 @@ body > footer button {
     cursor: pointer;
     font-size: 14px;
 }  
-body > footer button:hover {
+body > footer a:hover {
     color: white;
     background-color: var(--principal--color);
     border-radius: 12px;
