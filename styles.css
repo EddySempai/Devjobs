@@ -36,39 +36,96 @@ body > header:nth-child(1) {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--color--blur);
-}
-header svg {
-    color: var(--principal--color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--background--color);
+
+    svg {
+        color: var(--principal--color);
+    }
+    div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
 }
 
-header div {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-header a {
+header > nav a {
     text-decoration: none;
     color: var(--color--blur);
     font-weight: 400;
     margin: 5px;
+    position: relative;
+    padding-bottom: 0.2rem;
+    
+    &:hover {
+        color: var(--principal--color);
+    }
+
+    &::after{
+        content: ''; /* Obligatorio para que ::after sea visible */
+        position: absolute;
+        bottom: 0; /* Lo coloca justo en la parte inferior del enlace */
+        left: 0; /* Lo alinea a la izquierda */
+        width: 100%; /* El ancho total del enlace */
+        height: 2px; /* Grosor de la línea */
+        background-color: var(--principal--color); /* Color de la línea */
+
+        /* Animación para el efecto progresivo */
+        transform: scaleX(0); /* Inicialmente, la línea no tiene ancho (escala 0 en el eje X) */
+        transform-origin: bottom left; /* La línea crecerá desde la izquierda (origen -x) */
+        transition: transform 0.4s ease-out; /* Tiempo y tipo de animación (transición) */
+
+    }
+    &:hover::after {
+        transform: scaleX(1);
+    }
 }
-header a:hover {
-    color: var(--principal--color);
-}
-header div a:nth-child(1) {
+
+header div {
+    a:nth-child(1) {
     background-color: var(--secundary--color);
     color: var(--principal--color);
     border-radius: 12px;
     padding: 10px;
     font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+
+        &:hover {
+            background-color: var(--principal--color);
+            color: white;
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;
+        }
+        &:active {
+            transform: scale(0.95);
+            transition: transform 0.4s ease-out;
+        }
+    }
+    a:nth-child(2) {
+        background-color: gray;
+        color: white;
+        border-radius: 12px;
+        padding: 10px;
+        font-weight: 600;;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 1);
+            color: var(--principal--color);
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;
+        }
+        &:active {
+            transform: scale(0.95);
+            transition: transform 0.4s ease-out;
+        }
+    }
 }
-header div a:nth-child(2) {
-    background-color: gray;
-    color: white;
-    border-radius: 12px;
-    padding: 10px;
-    font-weight: 600;;
-}
+
 main > div:nth-child(1) {
     position: relative;
     align-items: center;
@@ -84,7 +141,7 @@ main > div:nth-child(1) {
         left: 0;
         right: 0;
         mask-image: linear-gradient(to bottom, rgba(16, 25, 34, 1) 5%, rgba(16, 25, 34, 0) 80%);
-      }
+    }
 
     h2 {
         padding-top: 100px;
@@ -145,6 +202,14 @@ main > div:nth-child(1) {
         background-color: var(--principal--color);
         outline: 2px solid white;
         outline-offset: 2px;
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;
+            }
+        &:active {
+            transform: scale(0.95);
+            transition: transform 0.4s ease-out;
+        }
     }
     section form svg {
          margin-top: 17px;

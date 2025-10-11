@@ -47,9 +47,9 @@ body > header:nth-child(1) {
         border-radius: 100%;
         margin-left: 1rem;
     }
-}
-header svg {
-    color: var(--principal--color);
+    svg {
+        color: var(--principal--color);
+    }
 }
 header div {
     display: flex;
@@ -66,10 +66,11 @@ header div:nth-child(1) a {
     font-weight: 400;
     margin: 5px;
     padding-left: 1rem;
+
+    a:hover {
+        color: var(--principal--color); 
 }
-header div:nth-child(1) a:hover {
-    color: var(--principal--color);
-}
+
 header div:nth-child(2) a {
     background-color: var(--secundary--color);
     color: var(--principal--color);
@@ -77,6 +78,11 @@ header div:nth-child(2) a {
     padding: 10px;
     font-weight: 600;
     text-decoration: none;
+
+    &:hover {
+        color: white; 
+        background-color: var(--principal--color);
+    }
 }
 main > header {
     h1{
@@ -202,10 +208,14 @@ body > footer a {
     font-size: 14px;
 }  
 body > footer a:hover {
+    display: flex;
     color: white;
     background-color: var(--principal--color);
     border-radius: 12px;
     width: 2rem;
     height: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
