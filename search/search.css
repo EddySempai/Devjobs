@@ -26,6 +26,28 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* 1. Oculta la barra de desplazamiento por defecto */
+    &::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra vertical */
+    height: 12px; /* Altura de la barra horizontal */
+    }
+  
+    /* 2. Estiliza la pista/fondo de la barra */
+    &::-webkit-scrollbar-track {
+        background-color: var(--background--color);
+        border-radius: 10px;
+    }
+  
+    /* 3. Estiliza el pulgar/manija de la barra (la parte que se mueve) */
+    &::-webkit-scrollbar-thumb {
+        background: var(--background--second--color); /* Color de la barra/pulgar */
+        border-radius: 10px;
+    }
+
+    /* 4. Estiliza el pulgar al pasar el ratón (opcional) */
+    &::-webkit-scrollbar-thumb:hover {
+        background: var(--principal--color); /* Color al pasar el ratón */
+    }
 }
 body > header:nth-child(1) {
     display: flex;
@@ -64,25 +86,54 @@ header div:nth-child(1) a {
     text-decoration: none;
     color: var(--color--blur);
     font-weight: 400;
-    margin: 5px;
-    padding-left: 1rem;
+    margin: 1rem;
+    padding-bottom: 0.3rem;
+    
+    position: relative;
 
-    a:hover {
+    &:hover {
         color: var(--principal--color); 
+    }
+    &::after{
+        content: ''; /* Obligatorio para que ::after sea visible */
+        position: absolute;
+        bottom: 0; /* Lo coloca justo en la parte inferior del enlace */
+        left: 0; /* Lo alinea a la izquierda */
+        width: 100%; /* El ancho total del enlace */
+        height: 2px; /* Grosor de la línea */
+        background-color: var(--principal--color); /* Color de la línea */
+
+        /* Animación para el efecto progresivo */
+        transform: scaleX(0); /* Inicialmente, la línea no tiene ancho (escala 0 en el eje X) */
+        transform-origin: bottom left; /* La línea crecerá desde la izquierda (origen -x) */
+        transition: transform 0.4s ease-out; /* Tiempo y tipo de animación (transición) */
+
+    }
+    &:hover::after {
+        transform: scaleX(1);
+    }
 }
 
-header div:nth-child(2) a {
+header div:nth-child(2) {
+    a {
     background-color: var(--secundary--color);
     color: var(--principal--color);
     border-radius: 12px;
     padding: 10px;
     font-weight: 600;
     text-decoration: none;
-
-    &:hover {
-        color: white; 
-        background-color: var(--principal--color);
-    }
+    cursor: pointer;
+        &:hover {
+            color: white; 
+            background-color: var(--principal--color);
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;
+        }
+        &:active {
+            transform: scale(0.95);
+            transition: transform 0.4s ease-out;
+        }
+    }  
 }
 main > header {
     h1{
@@ -111,9 +162,15 @@ main > section form {
         border: 1px solid #697b94;
         outline: none;
         background-color: var(--background--second--color);
-        color: var(--color--blur);
+        color: white;
         font-size: 16px;
         padding-left: 3.2rem;
+        &::placeholder {
+            color: var(--color--blur);
+        }
+        &:focus {
+            border: 2px solid var(--principal--color);
+        }
     }
     svg {
         position: relative;
@@ -134,6 +191,21 @@ main > section select {
     padding-left: 1rem;
     padding-right: 1rem;
     border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--principal--color);
+        color: white;
+    }
+    &:focus{
+        border: 2px solid var(--principal--color);
+        background-color: rgb(57, 72, 99);
+    }
+    /* option {
+        background-color: var(--background--second--color);
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+    } */
 }
 select:nth-child(1) {
     margin-left: 14.5rem;
@@ -157,13 +229,13 @@ main > footer {
         padding-right: 1.5rem;
         border-bottom: 1px solid var(--color--blur);
         h3 {
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
         small{
-            margin-bottom: 1rem;
             color: var(--color--blur);    
         }
         p{
+            margin-top: 0.5rem;
             margin-bottom: 1rem;
             color: #c4c4c4;    
         }
@@ -181,11 +253,26 @@ main > footer {
             width: 5rem;
             height: 2.5rem;     
             cursor: pointer;      
+            &:hover {
+                color: white;
+                background-color: green;
+                transform: scale(1.10);
+                transition: transform 0.4s ease-out; 
+            }
+            &:active {
+                transform: scale(0.95);
+                transition: transform 0.4s ease-out;
+            }
+            &:focus {
+                border: 2px solid var(--principal--color);
+                background-color: var(--principal--color);
+                color: white;
+            }
+        }
+        &:last-child {
+            border-bottom: none;
         }
     } 
-}
-article.article {
-    border-bottom: none;
 }
 
 body > footer {
@@ -194,28 +281,44 @@ body > footer {
     align-items: center;
     gap: 1rem;
     margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-top: 1rem; 
+    a {
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color--blur);
+        padding: 10px;
+        border-radius: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        width: 2rem;
+        height: 2rem;
+        &:hover {
+            display: flex;
+            color: var(--principal--color);
+            background-color: white;
+            border: 1px solid var(--principal--color);
+            border-radius: 12px;
+            width: 2rem;
+            height: 2rem;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;;
+        }
+        &:active {
+            transform: scale(0.90);
+            transition: transform 0.4s ease-out;
+        }
+        &:focus {
+            background-color: var(--principal--color);
+            color: white;
+        }
+    }  
 }
-body > footer a {
-    background: none;
-    color: var(--color--blur);
-    padding: 10px;
-    font-weight: 700;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-}  
-body > footer a:hover {
-    display: flex;
-    color: white;
-    background-color: var(--principal--color);
-    border-radius: 12px;
-    width: 2rem;
-    height: 2rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
