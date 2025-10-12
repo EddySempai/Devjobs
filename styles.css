@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root {
     --principal--color: #1173D4;
     --secundary--color: #0F2B45;
@@ -28,6 +27,28 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* 1. Oculta la barra de desplazamiento por defecto */
+    &::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra vertical */
+    height: 12px; /* Altura de la barra horizontal */
+    }
+  
+    /* 2. Estiliza la pista/fondo de la barra */
+    &::-webkit-scrollbar-track {
+        background-color: var(--background--color);
+        border-radius: 10px;
+    }
+  
+    /* 3. Estiliza el pulgar/manija de la barra (la parte que se mueve) */
+    &::-webkit-scrollbar-thumb {
+        background: var(--background--second--color); /* Color de la barra/pulgar */
+        border-radius: 10px;
+    }
+
+    /* 4. Estiliza el pulgar al pasar el ratón (opcional) */
+    &::-webkit-scrollbar-thumb:hover {
+        background: var(--principal--color); /* Color al pasar el ratón */
+    }
 }
 body > header:nth-child(1) {
     display: flex;
@@ -58,6 +79,7 @@ header > nav a {
     margin: 5px;
     position: relative;
     padding-bottom: 0.2rem;
+
     
     &:hover {
         color: var(--principal--color);
@@ -254,26 +276,30 @@ main section {
         width: 33%;
         height: 14rem;
         box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
-    }
-    div article h3 {
+        h3 {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 1rem;
-    }
-    div article p {
+        }
+        p {
         font-size: 16px;
         font-weight: 400;
         color: var(--color--blur);
         line-height: 1.8;
-    }
-    div article svg {
+        }
+        svg {
         color: var(--principal--color);
         background-color: var(--secundary--color);
         width: 64px;
         height: 64px;
         border-radius: 100%;
         padding: 16px;
-
+        }
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 0.4s ease-out;
+            box-shadow: 0px 0px 4px 1px rgba(7, 116, 240, 0.5);
+            }
     }
 }
 footer {
@@ -283,11 +309,37 @@ footer {
     padding-top: 2rem; 
     margin-top: 2rem; 
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: nowrap;
 
     small{
         font-size: 16px;
         font-weight: 400;
         color: var(--color--blur);
         line-height: 1.8;
+    }
+    div {
+        display: flex;
+        gap: 0.5rem;
+        a {
+            color: var(--principal--color);
+            border-radius: 100%;
+            background-color: var(--secundary--color);
+            border: 1px solid var(--principal--color);
+            width: 44px;
+            height: 44px;
+            padding: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.3s ease;
+            }
+        }
     }
 }
