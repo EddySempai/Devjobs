@@ -29,7 +29,7 @@ main {
 button {
     background-color: var(--principal--color);
     color: white;
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 1rem;
     font-weight: 600;
     text-decoration: none;
@@ -49,7 +49,8 @@ button {
         color: white;
         background-color: green;
         transform: scale(1.10);
-        transition: transform 0.4s ease-out; 
+        transition: transform 0.4s ease-out;
+        box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.2);
     }
     &:active {
         transform: scale(0.95);
@@ -60,12 +61,20 @@ button {
         background-color: var(--principal--color);
         color: white;
     }
+    &:last-child{
+        margin-bottom: 6rem;
+    }
 }
 p {
     color: var(--color--blur);
 }
 main > section {
-
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    h2{
+        margin-bottom: 1rem;
+    }    
     svg{
     color: var(--principal--color);
     width: 24px;
@@ -75,4 +84,18 @@ main > section {
     padding: 0.2rem;
     stroke-width: 4;
     }
+    li{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--color--blur);
+        margin-bottom: 1.2rem;
+    }
+    &:last-child{
+        padding-bottom: 3rem;
+        border-bottom: 0.5px solid var(--color--blur);
+    }
+}
+footer {
+    height: 5rem;
 }
