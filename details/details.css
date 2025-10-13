@@ -1,0 +1,78 @@
+@import url('../search/search.css');
+
+small {
+    padding: 3rem;
+    padding-bottom: 0;
+    padding-left: 10rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--color--blur);
+    display: block;
+    span{
+        color: white;
+        font-weight: bold;
+    }
+}
+main > header {
+    h1{ 
+        align-items: baseline;
+        text-align: left;
+    }
+    h3 {
+        color: var(--color--blur);
+    }
+}
+main {
+    margin-left: 13rem;
+    margin-right: 9rem;
+}
+button {
+    background-color: var(--principal--color);
+    color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 68rem;
+    width: 9rem;
+    height: 3rem;     
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 4px 5px 1px rgba(26, 127, 243, 0.4) ;
+    &:hover {
+        color: white;
+        background-color: green;
+        transform: scale(1.10);
+        transition: transform 0.4s ease-out; 
+    }
+    &:active {
+        transform: scale(0.95);
+        transition: transform 0.4s ease-out;
+    }
+    &:focus {
+        border: 2px solid var(--principal--color);
+        background-color: var(--principal--color);
+        color: white;
+    }
+}
+p {
+    color: var(--color--blur);
+}
+main > section {
+
+    svg{
+    color: var(--principal--color);
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--principal--color);
+    border-radius: 100%;
+    padding: 0.2rem;
+    stroke-width: 4;
+    }
+}
