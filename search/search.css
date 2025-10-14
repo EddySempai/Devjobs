@@ -86,6 +86,7 @@ header div {
         margin-left: 1rem;
     }
 }
+/* la navegacion de la barra de arriba */
 header div:nth-child(1) a {
     text-decoration: none;
     color: var(--color--blur);
@@ -151,15 +152,15 @@ main > header {
         color: var(--color--blur); 
     }
 }
-main > section form {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-
+main > section {
+    form {
+        display: flex;
+        margin-top: 2rem; 
+        align-items: center;
+    }
     input {
-        width: 60rem;
+        /* max-width: 56rem; */
+        width: 100%; 
         padding-top: 1rem;
         padding-bottom: 1rem;
         border-radius: 5px;
@@ -180,10 +181,20 @@ main > section form {
         position: relative;
         left: 3.5rem;
         color: var(--color--blur);
+    
+    } 
+    .search-container {
+        max-width: 56rem;
+        margin-inline: auto;
     }
 }
+main > section .search-container > div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
 
-main > section select {
+    select {
     background-color: rgb(57, 72, 99);
     color: white;
     border-radius: 5px;
@@ -192,42 +203,40 @@ main > section select {
     padding: 0.5rem;
     margin-left: 1rem;
     margin-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
     border: none;
     cursor: pointer;
-    &:hover {
-        background-color: var(--principal--color);
-        color: white;
+        &:hover {
+            background-color: var(--principal--color);
+            color: white;
+        }
+        &:focus{
+            border: 2px solid var(--principal--color);
+            background-color: rgb(57, 72, 99);
+        }
+        &:first-child{
+            margin-left: 1.4rem;
+        }
     }
-    &:focus{
-        border: 2px solid var(--principal--color);
-        background-color: rgb(57, 72, 99);
-    }
-    /* option {
-        background-color: var(--background--second--color);
-        border-radius: 5px;
-        outline: none;
-        font-size: 16px;
-    } */
 }
-select:nth-child(1) {
-    margin-left: 14.5rem;
-}
+
 main > footer {
-    margin-left: 14.5rem;
-    margin-right: 12rem;
+    margin-inline: auto;
+    max-width: 56rem;
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     h2 {
         margin-bottom: 1rem;
     }
-    div {
+    .Article-container {
         border: 1px solid var(--color--blur);
         border-radius: 10px;
-    }
-
+    
     article {
+        margin: 0;
+        display: flex;
+        align-items: start;
+        gap: 1rem;
         padding-top: 1rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -243,7 +252,7 @@ main > footer {
             margin-bottom: 1rem;
             color: #c4c4c4;    
         }
-        button {
+        .apply-jobs {
             background-color: var(--principal--color);
             color: white;
             border-radius: 12px;
@@ -252,9 +261,7 @@ main > footer {
             text-decoration: none;
             outline: none;
             border: none;
-            position: absolute;
-            left: 66.5rem;
-            width: 6.5rem;
+            width: 9rem;
             height: 2.5rem;     
             cursor: pointer;
             font-size: 16px;
@@ -277,11 +284,15 @@ main > footer {
                 background-color: var(--principal--color);
                 color: white;
             }
+            &.is-applied {
+                background: #4caf50;
+                pointer-events: none;
+            }
         }
         &:last-child {
             border-bottom: none;
         }
-    } 
+    }} 
 }
 
 body > footer {
@@ -291,6 +302,7 @@ body > footer {
     gap: 1rem;
     margin-bottom: 3rem;
     margin-top: 1rem; 
+    
     a {
         background: none;
         display: flex;
@@ -307,6 +319,7 @@ body > footer {
         font-size: 14px;
         width: 2rem;
         height: 2rem;
+
         &:hover {
             display: flex;
             color: var(--principal--color);
@@ -319,15 +332,23 @@ body > footer {
             text-align: center;
             justify-content: center;
             transform: scale(1.05);
-            transition: transform 0.4s ease-out;;
+            transition: transform 0.4s ease-out;
         }
+
         &:active {
             transform: scale(0.90);
             transition: transform 0.4s ease-out;
         }
+
         &:focus {
             background-color: var(--principal--color);
             color: white;
         }
+
+         &.is-active {
+            background-color: var(--primary-light);
+            color: white;
+            pointer-events: none;
+        }   
     }  
 }
