@@ -159,7 +159,6 @@ main > section {
         align-items: center;
     }
     input {
-        /* max-width: 56rem; */
         width: 100%; 
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -179,13 +178,14 @@ main > section {
     }
     svg {
         position: relative;
-        left: 3.5rem;
+        left: 2.2rem;
         color: var(--color--blur);
     
     } 
     .search-container {
         max-width: 56rem;
         margin-inline: auto;
+        width: 100%;
     }
 }
 main > section .search-container > div {
@@ -214,7 +214,7 @@ main > section .search-container > div {
             background-color: rgb(57, 72, 99);
         }
         &:first-child{
-            margin-left: 1.4rem;
+            margin-left: 0;
         }
     }
 }
@@ -255,13 +255,16 @@ main > footer {
         .apply-jobs {
             background-color: var(--principal--color);
             color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border-radius: 12px;
-            padding: 15;
+            padding: 0.5rem 1rem; 
             font-weight: 600;
             text-decoration: none;
             outline: none;
             border: none;
-            width: 9rem;
+            min-width: 6rem;
             height: 2.5rem;     
             cursor: pointer;
             font-size: 16px;

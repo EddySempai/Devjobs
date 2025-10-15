@@ -14,6 +14,9 @@ small {
     }
 }
 main > header {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
     h1{ 
         align-items: baseline;
         text-align: left;
