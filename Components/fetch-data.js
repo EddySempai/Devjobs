@@ -1,5 +1,5 @@
 const jobsContainer = document.querySelector('.jobs-listening');
-const MAX_RESULT_FOR_PAGE = 3;
+const MAX_RESULT_FOR_PAGE = 5;
 
 fetch('../data.json')
     .then((response) => {
@@ -7,14 +7,20 @@ fetch('../data.json')
     })
     .then((jobs) => {
 
+        let countJobs = 0
+        
         jobs.forEach((job) => {
-          const article = document.createElement('article');
+            if (countJobs >= MAX_RESULT_FOR_PAGE) {
+                return;
+            }
+            const article = document.createElement('article');
           
             article.dataset.modalidad = job.modalidad
             article.dataset.nivel = job.nivel
             article.dataset.technology = job.tecnologias
+            article.dataset.location = job.location
 
-
+            article.classList.add('jobs-listening');
             article.innerHTML = `
             <div> 
                 <h3>${job.titulo}</h3>
@@ -25,5 +31,8 @@ fetch('../data.json')
             `;
 
             jobsContainer.appendChild(article);
+            countJobs++;
         })
     });
+;
+
