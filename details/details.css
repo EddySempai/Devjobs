@@ -15,19 +15,24 @@ small {
 }
 main > header {
     display: flex;
-    justify-content: start;
-    gap: 1rem;
-    h1{ 
-        align-items: baseline;
-        text-align: left;
-    }
-    h3 {
-        color: var(--color--blur);
+    gap: 5rem;
+
+    div {
+        display: block;
+        h1{ 
+            align-items: baseline;
+            text-align: left;
+        }
+        h3 {
+            color: var(--color--blur);
+        }   
     }
 }
 main {
-    margin-left: 13rem;
-    margin-right: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 58rem;
+
 }
 button {
     background-color: var(--principal--color);
@@ -38,13 +43,13 @@ button {
     text-decoration: none;
     outline: none;
     border: none;
-    position: absolute;
-    left: 68rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 9rem;
     height: 3rem;     
     cursor: pointer;
-    margin-top: 1rem;
-    text-align: center;
+    margin-top: 3rem;
     font-weight: bold;
     font-size: 16px;
     box-shadow: 1px 4px 5px 1px rgba(26, 127, 243, 0.4) ;
@@ -90,7 +95,7 @@ main > section {
     li{
         display: flex;
         align-items: center;
-        gap: 0.5rem;
+        gap: 3rem;
         color: var(--color--blur);
         margin-bottom: 1.2rem;
     }
