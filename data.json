@@ -15,7 +15,7 @@
     "modalidad": "Híbrido",
     "descripcion": "Innovatech Corp busca un Ingeniero de Software Senior para nuestro equipo de Backend en la Ciudad de México (modalidad híbrida). Serás clave en el diseño y desarrollo de APIs robustas y escalables utilizando Python y una arquitectura de microservicios. Buscamos a alguien con experiencia liderando proyectos, que pueda mentorizar a otros desarrolladores y que se apasione por construir soluciones de software de alta calidad que impacten a miles de usuarios. Experiencia con AWS y Django es un gran plus.",
     "company": "Innovatech Corp",
-    "location": "Ciudad de México, México",
+    "location": "Mexico",
     "nivel": "Senior",
     "tecnologias": ["Python", "Django", "SQL", "Docker", "AWS", "REST API"]
   },
@@ -25,7 +25,7 @@
     "modalidad": "Presencial",
     "descripcion": "Creative Flow, con oficinas en Madrid, está en la búsqueda de un Diseñador/a UI/UX talentoso y creativo para unirse a nuestro equipo de forma presencial. Tu misión será la creación de interfaces de usuario atractivas, intuitivas y funcionales para nuestras aplicaciones web y móviles. Trabajarás en estrecha colaboración con los equipos de producto y desarrollo para transformar ideas en experiencias de usuario excepcionales. Se requiere un portfolio que demuestre experiencia en diseño de interfaces y prototipado con herramientas como Figma o Sketch.",
     "company": "Creative Flow",
-    "location": "Madrid, España",
+    "location": "España",
     "nivel": "Mid Senior",
     "tecnologias": ["Figma", "Sketch", "Prototipado", "User Research"]
   },
@@ -45,7 +45,7 @@
     "modalidad": "Híbrido",
     "descripcion": "WebCraft S.A., ubicada en Bogotá, busca un Desarrollador Frontend de nivel medio para unirse a nuestro equipo en modalidad híbrida. Serás parte fundamental en el desarrollo y mantenimiento de aplicaciones web interactivas y de alto rendimiento, utilizando principalmente Vue.js. Esperamos que tengas un buen dominio de las tecnologías web estándar (HTML, CSS, JavaScript) y experiencia trabajando con preprocesadores como SASS.",
     "company": "WebCraft S.A.",
-    "location": "Bogotá, Colombia",
+    "location": "Colombia",
     "nivel": "Mid Senior",
     "tecnologias": ["HTML", "CSS", "JavaScript", "Vue.js", "SASS"]
   },
@@ -55,7 +55,7 @@
     "modalidad": "Presencial",
     "descripcion": "En DataMinds, estamos buscando un Data Scientist experimentado para trabajar en nuestras oficinas de San Francisco. Tu rol principal será el análisis de grandes conjuntos de datos para extraer insights valiosos y construir modelos predictivos que impulsen nuestras decisiones de negocio. Deberás tener una sólida experiencia en machine learning y un excelente manejo de herramientas como Python, R, Pandas y TensorFlow.",
     "company": "DataMinds",
-    "location": "San Francisco, EEUU",
+    "location": "EEUU",
     "nivel": "Senior",
     "tecnologias": ["Python", "R", "Pandas", "Scikit-learn", "TensorFlow"]
   },
@@ -75,7 +75,7 @@
     "modalidad": "Híbrido",
     "descripcion": "AppGenius, con sede en Buenos Aires, está buscando un Desarrollador Mobile iOS con experiencia para unirse a nuestro equipo en un modelo híbrido. Tu responsabilidad será la creación y optimización de aplicaciones nativas para iOS, con un fuerte enfoque en el rendimiento, la calidad del código y la experiencia de usuario. Debes tener un dominio avanzado de Swift y el SDK de iOS, así como experiencia consumiendo APIs REST.",
     "company": "AppGenius",
-    "location": "Buenos Aires, Argentina",
+    "location": "Argentina",
     "nivel": "Mid Senior",
     "tecnologias": ["Swift", "iOS SDK", "Xcode", "APIs REST"]
   },
@@ -85,7 +85,7 @@
     "modalidad": "Presencial",
     "descripcion": "GlobalData Services necesita un Administrador de Bases de Datos (DBA) Senior para trabajar en nuestras oficinas de Barcelona. Serás responsable de la gestión, mantenimiento, optimización y seguridad de las bases de datos críticas de la empresa, tanto SQL (SQL Server, PostgreSQL) como NoSQL (MongoDB). La experiencia en tuning de consultas y estrategias de backup/recovery es esencial.",
     "company": "GlobalData Services",
-    "location": "Barcelona, España",
+    "location": "España",
     "nivel": "Senior",
     "tecnologias": ["SQL Server", "MongoDB", "PostgreSQL", "Tuning", "Backup/Recovery"]
   },
@@ -105,7 +105,7 @@
     "modalidad": "Híbrido",
     "descripcion": "En Quality First, la calidad es nuestra prioridad. Buscamos un Analista de QA / Tester Junior para nuestras oficinas en Lima (modalidad híbrida). Serás responsable de diseñar y ejecutar planes de prueba, tanto manuales como automatizados, para asegurar la máxima calidad de nuestro software. Es una excelente oportunidad para crecer en el área de quality assurance, trabajando con herramientas como Selenium y JIRA.",
     "company": "Quality First",
-    "location": "Lima, Perú",
+    "location": "Perú",
     "nivel": "Junior",
     "tecnologias": ["Selenium", "JIRA", "Testing manual", "SQL"]
   },
@@ -135,7 +135,7 @@
     "modalidad": "Presencial",
     "descripcion": "Azure Architects, un partner de Microsoft en Múnich, busca un Arquitecto de Soluciones Cloud con especialización en Azure. Tu función será diseñar y planificar arquitecturas en la nube que sean escalables, resilientes y seguras para nuestros clientes empresariales. Deberás tener un profundo conocimiento de los servicios de Azure, networking, seguridad y, preferiblemente, certificaciones relevantes.",
     "company": "Azure Architects",
-    "location": "Múnich, Alemania",
+    "location": "Alemania",
     "nivel": "Senior",
     "tecnologias": ["Azure", "Cloud Computing", "Networking", "Seguridad", "TOGAF (plus)"]
   },
@@ -145,7 +145,7 @@
     "modalidad": "Híbrido",
     "descripcion": "Enterprise Solutions, en Santiago de Chile, está en búsqueda de un Desarrollador .NET Core de nivel medio/alto para unirse a nuestro equipo en modalidad híbrida. Participarás en la construcción de aplicaciones empresariales de alto rendimiento utilizando la pila de Microsoft, incluyendo .NET Core, C# y SQL Server. La experiencia trabajando con metodologías ágiles y Git es fundamental.",
     "company": "Enterprise Solutions",
-    "location": "Santiago, Chile",
+    "location": "Chile",
     "nivel": "Mid Senior",
     "tecnologias": [".NET Core", "C#", "ASP.NET", "SQL Server", "Git"]
   },
@@ -155,7 +155,7 @@
     "modalidad": "Presencial",
     "descripcion": "Global Support ofrece una oportunidad para iniciar tu carrera en IT como Técnico de Soporte de primer nivel en nuestras oficinas de Miami. Serás el primer punto de contacto para nuestros usuarios internos, brindando asistencia en la instalación y configuración de hardware y software, y resolviendo problemas técnicos. Buscamos a alguien con ganas de aprender, excelentes habilidades de comunicación y conocimientos básicos de redes y sistemas operativos.",
     "company": "Global Support",
-    "location": "Miami, EEUU",
+    "location": "EEUU",
     "nivel": "Junior",
     "tecnologias": ["Windows/Linux", "Redes básicas", "Troubleshooting", "Active Directory"]
   },
@@ -175,7 +175,7 @@
     "modalidad": "Híbrido",
     "descripcion": "CrossPlatform Apps, con sede en Lisboa, está buscando un Desarrollador Mobile con experiencia en Flutter para crear aplicaciones para iOS y Android desde una única base de código. Trabajarás en un entorno híbrido, colaborando con diseñadores y product managers para crear aplicaciones móviles fluidas y atractivas. La experiencia con Firebase y patrones de gestión de estado es clave para este rol.",
     "company": "CrossPlatform Apps",
-    "location": "Lisboa, Portugal",
+    "location": "Portugal",
     "nivel": "Mid Senior",
     "tecnologias": ["Flutter", "Dart", "Firebase", "State Management"]
   },
@@ -195,7 +195,7 @@
     "modalidad": "Híbrido",
     "descripcion": "Product Vision, en Londres, está buscando un Product Manager Técnico Senior para liderar la estrategia y ejecución de nuestros productos de software. En este rol híbrido, serás el enlace clave entre el negocio y el equipo de desarrollo, definiendo la hoja de ruta del producto y priorizando funcionalidades. Se requiere una sólida comprensión técnica y experiencia trabajando con metodologías ágiles como Scrum.",
     "company": "Product Vision",
-    "location": "Londres, Reino Unido",
+    "location": "Venezuela",
     "nivel": "Senior",
     "tecnologias": ["Scrum/Agile", "JIRA/Trello", "Análisis de Datos", "UX"]
   }

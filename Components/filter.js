@@ -31,7 +31,7 @@ ubication.addEventListener('change', function() {
 
   job.forEach(job => {
      const location = job.getAttribute('data-location');
-     const isShow = location === selectUbicationValue || selectUbicationValue === '';
+     const isShow = location.includes(selectUbicationValue) || selectUbicationValue === '';
 
      job.classList.toggle('is-hidden', !isShow);
   })

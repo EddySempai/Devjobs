@@ -37,11 +37,28 @@
                     <input type="text" placeholder="Buscar empleos por titulo, habilidad o empresa">
                 </form>
                 <div>
-                    <select name="tecnologia" id="tecnologia">
-                        <option value="">Tecnologia</option>
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
-                        <option value="JavaScript">JavaScript</option>
+                    <select name="tecnologia" id="tecnologia" >
+                        <optgroup label="Frontend">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="React">React</option>
+                            <option value="Vue">Vue</option>
+                        </optgroup>
+                        <optgroup label="Backend">
+                            <option value="Node.js">Node.js</option>
+                            <option value="Python">Python</option>
+                            <option value="Java">Java</option>
+                            <option value="C#">C#</option>
+                            <option value="PHP">PHP</option>
+                        </optgroup>
+                        <optgroup label="Base de datos">
+                            <option value="MySQL">MySQL</option>
+                            <option value="PostgreSQL">PostgreSQL</option>
+                            <option value="MongoDB">MongoDB</option>
+                            <option value="Firebase">Firebase</option>
+                            <option value="Oracle">Oracle</option>
+                        </optgroup>
                     </select>
                     <select name="ubicacion" id="ubicacion">
                         <option value="">Ubicacion</option>
@@ -50,6 +67,9 @@
                         <option value="Colombia">Colombia</option>
                         <option value="Venezuela">Venezuela</option>
                         <option value="Mexico">Mexico</option>
+                        <option value="EEUU">EEUU</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="España">España</option>
                         <option value="Global">Global</option>
                     </select>
                     <select name="Tipo de Contrato" id="tipo">
@@ -61,7 +81,7 @@
                     <select name="Nivel de Emperiencia" id="experiencia">
                         <option value="">Nivel de Emperiencia</option>
                         <option value="Junior">Junior</option>
-                        <option value="Medio">Medio</option>
+                        <option value="Mid Senior">Mid Senior</option>
                         <option value="Senior">Senior</option>
                     </select>
                 </div>

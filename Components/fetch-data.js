@@ -10,9 +10,9 @@ fetch('../data.json')
         let countJobs = 0
         
         jobs.forEach((job) => {
-            if (countJobs >= MAX_RESULT_FOR_PAGE) {
+           /*  if (countJobs >= MAX_RESULT_FOR_PAGE) {
                 return;
-            }
+            } */
             const article = document.createElement('article');
           
             article.dataset.modalidad = job.modalidad
@@ -24,7 +24,7 @@ fetch('../data.json')
             article.innerHTML = `
             <div> 
                 <h3>${job.titulo}</h3>
-                <small>${job.company} | ${job.location}</small>
+                <small>${job.company} | ${job.location} (${job.modalidad})</small>
                 <p>${job.descripcion}</p>
             </div>
             <button class="apply-jobs">Aplicar</button>
