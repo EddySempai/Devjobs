@@ -31,7 +31,7 @@ main > header {
 main {
     margin-left: auto;
     margin-right: auto;
-    max-width: 58rem;
+    max-width: 56rem;
 
 }
 button {
@@ -105,5 +105,13 @@ main > section {
     }
 }
 footer {
+    display: flex;
+    justify-content: end;
     height: 5rem;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 43rem;
+    }
 }

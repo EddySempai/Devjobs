@@ -193,6 +193,7 @@ main > section .search-container > div {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
+    margin: 0 auto;
 
     select {
     background-color: rgb(57, 72, 99);

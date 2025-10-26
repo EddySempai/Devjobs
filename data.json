@@ -5,9 +5,12 @@
     "modalidad": "Remoto",
     "descripcion": "En TechNova Solutions, buscamos un Desarrollador Full Stack Junior para unirse a nuestro equipo de forma remota. Serás responsable de colaborar en el diseño, desarrollo y mantenimiento de nuestras aplicaciones web utilizando la pila MERN (MongoDB, Express, React, Node.js). El candidato ideal es un recién graduado o un desarrollador con poca experiencia, pero con una fuerte pasión por el aprendizaje, la resolución de problemas y con ganas de crecer profesionalmente en un ambiente dinámico e innovador.",
     "company": "TechNova Solutions",
+    "company_description": "TechNova Solutions es una empresa líder en el sector tecnológico, enfocada en ofrecer soluciones innovadoras y de alta calidad a nuestros clientes.",
     "location": "Global",
     "nivel": "Junior",
-    "tecnologias": ["JavaScript", "React", "Node.js", "MongoDB", "Express"]
+    "tecnologias": ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
+    "requirements": ["Experiencia con la pila MERN (MongoDB, Express, React, Node.js)", "Conocimientos de JavaScript", "Pasión por el aprendizaje y la resolución de problemas"],
+    "responsibilities": ["Colaborar en el diseño y desarrollo de aplicaciones web.", "Mantenimiento y mejora continua de las aplicaciones existentes.", "Aprender y aplicar nuevas tecnologías para la resolución de problemas.", "Trabajar en un ambiente dinámico e innovador."]
   },
   {
     "id": 2,
@@ -15,9 +18,12 @@
     "modalidad": "Híbrido",
     "descripcion": "Innovatech Corp busca un Ingeniero de Software Senior para nuestro equipo de Backend en la Ciudad de México (modalidad híbrida). Serás clave en el diseño y desarrollo de APIs robustas y escalables utilizando Python y una arquitectura de microservicios. Buscamos a alguien con experiencia liderando proyectos, que pueda mentorizar a otros desarrolladores y que se apasione por construir soluciones de software de alta calidad que impacten a miles de usuarios. Experiencia con AWS y Django es un gran plus.",
     "company": "Innovatech Corp",
+    "company_description": "Innovatech Corp es una corporación que busca la innovación y la excelencia en el desarrollo de software, con un enfoque en soluciones de backend robustas y escalables.",
     "location": "Mexico",
     "nivel": "Senior",
-    "tecnologias": ["Python", "Django", "SQL", "Docker", "AWS", "REST API"]
+    "tecnologias": ["Python", "Django", "SQL", "Docker", "AWS", "REST API"],
+    "requirements": ["Experiencia en el diseño y desarrollo de APIs con Python", "Conocimiento de arquitectura de microservicios", "Experiencia con AWS y Django es un plus"],
+    "responsibilities": ["Diseñar y desarrollar APIs robustas y escalables.", "Liderar proyectos y mentorizar a otros desarrolladores.", "Construir soluciones de software de alta calidad.", "Asegurar el rendimiento y la escalabilidad de los microservicios."]
   },
   {
     "id": 3,
@@ -25,9 +31,12 @@
     "modalidad": "Presencial",
     "descripcion": "Creative Flow, con oficinas en Madrid, está en la búsqueda de un Diseñador/a UI/UX talentoso y creativo para unirse a nuestro equipo de forma presencial. Tu misión será la creación de interfaces de usuario atractivas, intuitivas y funcionales para nuestras aplicaciones web y móviles. Trabajarás en estrecha colaboración con los equipos de producto y desarrollo para transformar ideas en experiencias de usuario excepcionales. Se requiere un portfolio que demuestre experiencia en diseño de interfaces y prototipado con herramientas como Figma o Sketch.",
     "company": "Creative Flow",
+    "company_description": "Creative Flow es una agencia de diseño que se especializa en la creación de experiencias de usuario memorables y atractivas.",
     "location": "España",
     "nivel": "Mid Senior",
-    "tecnologias": ["Figma", "Sketch", "Prototipado", "User Research"]
+    "tecnologias": ["Figma", "Sketch", "Prototipado", "User Research"],
+    "requirements": ["Portfolio que demuestre experiencia en diseño de interfaces", "Experiencia con herramientas como Figma o Sketch", "Habilidad para colaborar con equipos de producto y desarrollo"],
+    "responsibilities": ["Crear interfaces de usuario atractivas y funcionales.", "Colaborar con los equipos de producto y desarrollo.", "Transformar ideas en experiencias de usuario excepcionales.", "Realizar prototipos y pruebas de usabilidad."]
   },
   {
     "id": 4,
@@ -35,9 +44,12 @@
     "modalidad": "Remoto",
     "descripcion": "SecureNet te invita a formar parte de nuestro equipo global como Especialista en Ciberseguridad. En este rol remoto, serás responsable del monitoreo constante de nuestras redes, la prevención activa de amenazas y la respuesta rápida a incidentes de seguridad. Buscamos un profesional con experiencia demostrable en pruebas de penetración (pentesting) y un profundo conocimiento de los estándares de seguridad como ISO 27001 y las vulnerabilidades descritas por OWASP.",
     "company": "SecureNet",
+    "company_description": "SecureNet es una empresa de ciberseguridad dedicada a proteger la infraestructura y los datos de nuestros clientes contra las amenazas más avanzadas.",
     "location": "Global",
     "nivel": "Mid Senior",
-    "tecnologias": ["Kali Linux", "Firewalls", "ISO 27001", "OWASP"]
+    "tecnologias": ["Kali Linux", "Firewalls", "ISO 27001", "OWASP"],
+    "requirements": ["Experiencia demostrable en pruebas de penetración (pentesting)", "Profundo conocimiento de estándares de seguridad como ISO 27001", "Conocimiento de las vulnerabilidades descritas por OWASP"],
+    "responsibilities": ["Monitoreo constante de redes y sistemas.", "Prevención activa de amenazas y vulnerabilidades.", "Respuesta rápida a incidentes de seguridad.", "Realizar pruebas de penetración (pentesting)."]
   },
   {
     "id": 5,
@@ -45,9 +57,12 @@
     "modalidad": "Híbrido",
     "descripcion": "WebCraft S.A., ubicada en Bogotá, busca un Desarrollador Frontend de nivel medio para unirse a nuestro equipo en modalidad híbrida. Serás parte fundamental en el desarrollo y mantenimiento de aplicaciones web interactivas y de alto rendimiento, utilizando principalmente Vue.js. Esperamos que tengas un buen dominio de las tecnologías web estándar (HTML, CSS, JavaScript) y experiencia trabajando con preprocesadores como SASS.",
     "company": "WebCraft S.A.",
+    "company_description": "WebCraft S.A. es una empresa de desarrollo de software que se especializa en la creación de aplicaciones web interactivas y de alto rendimiento.",
     "location": "Colombia",
     "nivel": "Mid Senior",
-    "tecnologias": ["HTML", "CSS", "JavaScript", "Vue.js", "SASS"]
+    "tecnologias": ["HTML", "CSS", "JavaScript", "Vue.js", "SASS"],
+    "requirements": ["Dominio de tecnologías web estándar (HTML, CSS, JavaScript)", "Experiencia desarrollando con Vue.js", "Experiencia trabajando con preprocesadores como SASS"],
+    "responsibilities": ["Desarrollo y mantenimiento de aplicaciones web interactivas.", "Crear interfaces de usuario de alto rendimiento.", "Colaborar con el equipo para definir y mejorar las funcionalidades.", "Optimizar las aplicaciones para garantizar la mejor experiencia de usuario."]
   },
   {
     "id": 6,
@@ -55,9 +70,12 @@
     "modalidad": "Presencial",
     "descripcion": "En DataMinds, estamos buscando un Data Scientist experimentado para trabajar en nuestras oficinas de San Francisco. Tu rol principal será el análisis de grandes conjuntos de datos para extraer insights valiosos y construir modelos predictivos que impulsen nuestras decisiones de negocio. Deberás tener una sólida experiencia en machine learning y un excelente manejo de herramientas como Python, R, Pandas y TensorFlow.",
     "company": "DataMinds",
+    "company_description": "DataMinds es una empresa de análisis de datos que ayuda a las empresas a tomar decisiones más inteligentes a través de la ciencia de datos.",
     "location": "EEUU",
     "nivel": "Senior",
-    "tecnologias": ["Python", "R", "Pandas", "Scikit-learn", "TensorFlow"]
+    "tecnologias": ["Python", "R", "Pandas", "Scikit-learn", "TensorFlow"],
+    "requirements": ["Sólida experiencia en machine learning", "Excelente manejo de herramientas como Python, R, Pandas y TensorFlow", "Capacidad para analizar grandes conjuntos de datos"],
+    "responsibilities": ["Análisis de grandes conjuntos de datos para extraer insights.", "Construir modelos predictivos.", "Impulsar las decisiones de negocio con datos.", "Comunicar los hallazgos a los stakeholders."]
   },
   {
     "id": 7,
@@ -65,9 +83,12 @@
     "modalidad": "Remoto",
     "descripcion": "CloudPioneer, una empresa líder en soluciones en la nube, busca un DevOps Engineer Senior para trabajar de forma remota. Serás el encargado de la automatización de la infraestructura (IaC), la implementación y mejora de pipelines de CI/CD y la gestión de contenedores en entornos de nube (AWS, Azure o GCP). Buscamos a alguien proactivo, con experiencia en Docker, Kubernetes y Terraform.",
     "company": "CloudPioneer",
+    "company_description": "CloudPioneer es una empresa líder en soluciones en la nube, ayudando a las empresas a migrar y gestionar su infraestructura en la nube.",
     "location": "Global",
     "nivel": "Senior",
-    "tecnologias": ["Docker", "Kubernetes", "Terraform", "Jenkins", "AWS/Azure/GCP"]
+    "tecnologias": ["Docker", "Kubernetes", "Terraform", "Jenkins", "AWS/Azure/GCP"],
+    "requirements": ["Experiencia en automatización de la infraestructura (IaC)", "Experiencia en la implementación y mejora de pipelines de CI/CD", "Experiencia con Docker, Kubernetes y Terraform"],
+    "responsibilities": ["Automatización de la infraestructura (IaC).", "Implementación y mejora de pipelines de CI/CD.", "Gestión de contenedores en entornos de nube.", "Asegurar la disponibilidad y el rendimiento de la infraestructura."]
   },
   {
     "id": 8,
@@ -75,9 +96,12 @@
     "modalidad": "Híbrido",
     "descripcion": "AppGenius, con sede en Buenos Aires, está buscando un Desarrollador Mobile iOS con experiencia para unirse a nuestro equipo en un modelo híbrido. Tu responsabilidad será la creación y optimización de aplicaciones nativas para iOS, con un fuerte enfoque en el rendimiento, la calidad del código y la experiencia de usuario. Debes tener un dominio avanzado de Swift y el SDK de iOS, así como experiencia consumiendo APIs REST.",
     "company": "AppGenius",
+    "company_description": "AppGenius es una empresa de desarrollo de aplicaciones móviles que crea soluciones innovadoras y de alta calidad para iOS y Android.",
     "location": "Argentina",
     "nivel": "Mid Senior",
-    "tecnologias": ["Swift", "iOS SDK", "Xcode", "APIs REST"]
+    "tecnologias": ["Swift", "iOS SDK", "Xcode", "APIs REST"],
+    "requirements": ["Dominio avanzado de Swift y el SDK de iOS", "Experiencia consumiendo APIs REST", "Enfoque en el rendimiento y la calidad del código"],
+    "responsibilities": ["Creación y optimización de aplicaciones nativas para iOS.", "Enfoque en el rendimiento y la calidad del código.", "Colaborar con el equipo para definir nuevas funcionalidades.", "Asegurar una excelente experiencia de usuario."]
   },
   {
     "id": 9,
@@ -85,9 +109,12 @@
     "modalidad": "Presencial",
     "descripcion": "GlobalData Services necesita un Administrador de Bases de Datos (DBA) Senior para trabajar en nuestras oficinas de Barcelona. Serás responsable de la gestión, mantenimiento, optimización y seguridad de las bases de datos críticas de la empresa, tanto SQL (SQL Server, PostgreSQL) como NoSQL (MongoDB). La experiencia en tuning de consultas y estrategias de backup/recovery es esencial.",
     "company": "GlobalData Services",
+    "company_description": "GlobalData Services ofrece servicios de gestión y administración de bases de datos para empresas de todo el mundo.",
     "location": "España",
     "nivel": "Senior",
-    "tecnologias": ["SQL Server", "MongoDB", "PostgreSQL", "Tuning", "Backup/Recovery"]
+    "tecnologias": ["SQL Server", "MongoDB", "PostgreSQL", "Tuning", "Backup/Recovery"],
+    "requirements": ["Experiencia en la gestión y mantenimiento de bases de datos SQL y NoSQL", "Experiencia en tuning de consultas", "Conocimiento de estrategias de backup/recovery"],
+    "responsibilities": ["Gestión, mantenimiento y optimización de bases de datos.", "Asegurar la seguridad de las bases de datos.", "Implementar estrategias de backup y recovery.", "Realizar tuning de consultas para mejorar el rendimiento."]
   },
   {
     "id": 10,
@@ -95,9 +122,12 @@
     "modalidad": "Remoto",
     "descripcion": "¡Apasionado/a de los videojuegos, esta es tu oportunidad! GameForge Studios busca un Programador C++ de nivel medio/alto para unirse a nuestro equipo de desarrollo de forma remota. Trabajarás en el desarrollo de la lógica de juego, la implementación de mecánicas y la optimización del rendimiento en nuestro motor de videojuegos propio. Se valorará el conocimiento de motores como Unreal Engine o Unity.",
     "company": "GameForge Studios",
+    "company_description": "GameForge Studios es un estudio de desarrollo de videojuegos que crea experiencias de juego inmersivas y emocionantes.",
     "location": "Global",
     "nivel": "Mid Senior",
-    "tecnologias": ["C++", "Unreal Engine/Unity (conocimiento)", "Algoritmos", "Optimización"]
+    "tecnologias": ["C++", "Unreal Engine/Unity (conocimiento)", "Algoritmos", "Optimización"],
+    "requirements": ["Experiencia en el desarrollo con C++", "Conocimiento de motores como Unreal Engine o Unity es valorado", "Habilidad para optimizar el rendimiento del juego"],
+    "responsibilities": ["Desarrollo de la lógica de juego.", "Implementación de mecánicas de juego.", "Optimización del rendimiento del motor de videojuegos.", "Colaborar con el equipo de diseño para crear nuevas experiencias."]
   },
   {
     "id": 11,
@@ -105,9 +135,12 @@
     "modalidad": "Híbrido",
     "descripcion": "En Quality First, la calidad es nuestra prioridad. Buscamos un Analista de QA / Tester Junior para nuestras oficinas en Lima (modalidad híbrida). Serás responsable de diseñar y ejecutar planes de prueba, tanto manuales como automatizados, para asegurar la máxima calidad de nuestro software. Es una excelente oportunidad para crecer en el área de quality assurance, trabajando con herramientas como Selenium y JIRA.",
     "company": "Quality First",
+    "company_description": "Quality First es una empresa de aseguramiento de la calidad que garantiza que el software de nuestros clientes cumpla con los más altos estándares.",
     "location": "Perú",
     "nivel": "Junior",
-    "tecnologias": ["Selenium", "JIRA", "Testing manual", "SQL"]
+    "tecnologias": ["Selenium", "JIRA", "Testing manual", "SQL"],
+    "requirements": ["Experiencia en el diseño y ejecución de planes de prueba", "Conocimiento de herramientas como Selenium y JIRA", "Capacidad para realizar pruebas manuales y automatizadas"],
+    "responsibilities": ["Diseñar y ejecutar planes de prueba.", "Realizar pruebas manuales y automatizadas.", "Asegurar la máxima calidad del software.", "Reportar y dar seguimiento a los errores encontrados."]
   },
   {
     "id": 12,
@@ -115,9 +148,12 @@
     "modalidad": "Remoto",
     "descripcion": "AI Innovators está a la vanguardia de la inteligencia artificial y busca un Ingeniero de Machine Learning Senior para unirse a nuestro equipo global de forma remota. Este rol implica la investigación, desarrollo e implementación de modelos de aprendizaje automático en entornos de producción a gran escala. Buscamos un experto en Python y frameworks como PyTorch o TensorFlow, con experiencia en el ciclo de vida completo de los modelos de ML.",
     "company": "AI Innovators",
+    "company_description": "AI Innovators es una empresa de inteligencia artificial que desarrolla soluciones de vanguardia para resolver problemas complejos.",
     "location": "Global",
     "nivel": "Senior",
-    "tecnologias": ["Python", "PyTorch", "TensorFlow", "Kubeflow", "NLP"]
+    "tecnologias": ["Python", "PyTorch", "TensorFlow", "Kubeflow", "NLP"],
+    "requirements": ["Experiencia en el ciclo de vida completo de los modelos de ML", "Experto en Python y frameworks como PyTorch o TensorFlow", "Experiencia en entornos de producción a gran escala"],
+    "responsibilities": ["Investigación, desarrollo e implementación de modelos de aprendizaje automático.", "Trabajar en entornos de producción a gran escala.", "Colaborar con el equipo para definir nuevas soluciones de IA.", "Optimizar y mantener los modelos de ML existentes."]
   },
   {
     "id": 13,
@@ -125,9 +161,12 @@
     "modalidad": "Remoto",
     "descripcion": "CryptoChain Labs te invita a ser parte de la revolución Web3 como Desarrollador Blockchain. En este puesto remoto, te enfocarás en el desarrollo de contratos inteligentes (smart contracts) y soluciones descentralizadas (dApps) sobre la red de Ethereum o similares. Necesitarás experiencia sólida en Solidity, Web3.js y herramientas del ecosistema como Truffle o Hardhat.",
     "company": "CryptoChain Labs",
+    "company_description": "CryptoChain Labs es un laboratorio de investigación y desarrollo de blockchain que está a la vanguardia de la revolución Web3.",
     "location": "Global",
     "nivel": "Mid Senior",
-    "tecnologias": ["Solidity", "Ethereum", "Web3.js", "Truffle"]
+    "tecnologias": ["Solidity", "Ethereum", "Web3.js", "Truffle"],
+    "requirements": ["Experiencia sólida en Solidity", "Experiencia en el desarrollo de contratos inteligentes (smart contracts) y dApps", "Conocimiento de herramientas como Truffle o Hardhat"],
+    "responsibilities": ["Desarrollo de contratos inteligentes (smart contracts).", "Creación de soluciones descentralizadas (dApps).", "Trabajar sobre la red de Ethereum o similares.", "Colaborar con el equipo para definir la arquitectura de las soluciones."]
   },
   {
     "id": 14,
@@ -135,9 +174,12 @@
     "modalidad": "Presencial",
     "descripcion": "Azure Architects, un partner de Microsoft en Múnich, busca un Arquitecto de Soluciones Cloud con especialización en Azure. Tu función será diseñar y planificar arquitecturas en la nube que sean escalables, resilientes y seguras para nuestros clientes empresariales. Deberás tener un profundo conocimiento de los servicios de Azure, networking, seguridad y, preferiblemente, certificaciones relevantes.",
     "company": "Azure Architects",
+    "company_description": "Azure Architects es un partner de Microsoft que se especializa en el diseño y la implementación de soluciones en la nube de Azure.",
     "location": "Alemania",
     "nivel": "Senior",
-    "tecnologias": ["Azure", "Cloud Computing", "Networking", "Seguridad", "TOGAF (plus)"]
+    "tecnologias": ["Azure", "Cloud Computing", "Networking", "Seguridad", "TOGAF (plus)"],
+    "requirements": ["Profundo conocimiento de los servicios de Azure", "Experiencia en el diseño de arquitecturas en la nube", "Certificaciones relevantes de Azure son preferibles"],
+    "responsibilities": ["Diseñar y planificar arquitecturas en la nube.", "Asegurar que las soluciones sean escalables, resilientes y seguras.", "Trabajar con clientes empresariales para entender sus necesidades.", "Mantenerse actualizado con los últimos servicios de Azure."]
   },
   {
     "id": 15,
@@ -145,9 +187,12 @@
     "modalidad": "Híbrido",
     "descripcion": "Enterprise Solutions, en Santiago de Chile, está en búsqueda de un Desarrollador .NET Core de nivel medio/alto para unirse a nuestro equipo en modalidad híbrida. Participarás en la construcción de aplicaciones empresariales de alto rendimiento utilizando la pila de Microsoft, incluyendo .NET Core, C# y SQL Server. La experiencia trabajando con metodologías ágiles y Git es fundamental.",
     "company": "Enterprise Solutions",
+    "company_description": "Enterprise Solutions es una empresa de software que desarrolla soluciones empresariales de alto rendimiento utilizando la pila de Microsoft.",
     "location": "Chile",
     "nivel": "Mid Senior",
-    "tecnologias": [".NET Core", "C#", "ASP.NET", "SQL Server", "Git"]
+    "tecnologias": [".NET Core", "C#", "ASP.NET", "SQL Server", "Git"],
+    "requirements": ["Experiencia en la construcción de aplicaciones con .NET Core y C#", "Experiencia trabajando con metodologías ágiles y Git", "Conocimiento de SQL Server"],
+    "responsibilities": ["Construcción de aplicaciones empresariales de alto rendimiento.", "Participar en el ciclo de vida completo del desarrollo de software.", "Colaborar con el equipo para definir y mejorar las funcionalidades.", "Asegurar la calidad y el rendimiento del código."]
   },
   {
     "id": 16,
@@ -155,9 +200,12 @@
     "modalidad": "Presencial",
     "descripcion": "Global Support ofrece una oportunidad para iniciar tu carrera en IT como Técnico de Soporte de primer nivel en nuestras oficinas de Miami. Serás el primer punto de contacto para nuestros usuarios internos, brindando asistencia en la instalación y configuración de hardware y software, y resolviendo problemas técnicos. Buscamos a alguien con ganas de aprender, excelentes habilidades de comunicación y conocimientos básicos de redes y sistemas operativos.",
     "company": "Global Support",
+    "company_description": "Global Support es una empresa que ofrece servicios de soporte técnico a nivel mundial, ayudando a los usuarios a resolver sus problemas técnicos.",
     "location": "EEUU",
     "nivel": "Junior",
-    "tecnologias": ["Windows/Linux", "Redes básicas", "Troubleshooting", "Active Directory"]
+    "tecnologias": ["Windows/Linux", "Redes básicas", "Troubleshooting", "Active Directory"],
+    "requirements": ["Conocimientos básicos de redes y sistemas operativos", "Excelentes habilidades de comunicación", "Ganas de aprender y resolver problemas técnicos"],
+    "responsibilities": ["Brindar asistencia en la instalación y configuración de hardware y software.", "Resolver problemas técnicos de los usuarios internos.", "Ser el primer punto de contacto para los usuarios.", "Documentar y dar seguimiento a los problemas técnicos."]
   },
   {
     "id": 17,
@@ -165,9 +213,12 @@
     "modalidad": "Remoto",
     "descripcion": "Backend Pros, una empresa especializada en soluciones de backend, busca un Desarrollador Java Senior con amplia experiencia en Spring Boot para unirse a nuestro equipo remoto. Serás responsable del desarrollo de microservicios y aplicaciones backend para una plataforma de alto tráfico, utilizando tecnologías como Kafka y PostgreSQL. Buscamos un desarrollador que se preocupe por la calidad y la escalabilidad del código.",
     "company": "Backend Pros",
+    "company_description": "Backend Pros es una empresa especializada en el desarrollo de soluciones de backend de alto rendimiento y escalables.",
     "location": "Global",
     "nivel": "Senior",
-    "tecnologias": ["Java", "Spring Boot", "Maven/Gradle", "Kafka", "PostgreSQL"]
+    "tecnologias": ["Java", "Spring Boot", "Maven/Gradle", "Kafka", "PostgreSQL"],
+    "requirements": ["Amplia experiencia en Spring Boot y Java", "Experiencia en el desarrollo de microservicios", "Conocimiento de tecnologías como Kafka y PostgreSQL"],
+    "responsibilities": ["Desarrollo de microservicios y aplicaciones backend.", "Trabajar en una plataforma de alto tráfico.", "Asegurar la calidad y la escalabilidad del código.", "Colaborar con el equipo para definir la arquitectura de las soluciones."]
   },
   {
     "id": 18,
@@ -175,9 +226,12 @@
     "modalidad": "Híbrido",
     "descripcion": "CrossPlatform Apps, con sede en Lisboa, está buscando un Desarrollador Mobile con experiencia en Flutter para crear aplicaciones para iOS y Android desde una única base de código. Trabajarás en un entorno híbrido, colaborando con diseñadores y product managers para crear aplicaciones móviles fluidas y atractivas. La experiencia con Firebase y patrones de gestión de estado es clave para este rol.",
     "company": "CrossPlatform Apps",
+    "company_description": "CrossPlatform Apps es una empresa de desarrollo de aplicaciones móviles que se especializa en la creación de soluciones multiplataforma con Flutter.",
     "location": "Portugal",
     "nivel": "Mid Senior",
-    "tecnologias": ["Flutter", "Dart", "Firebase", "State Management"]
+    "tecnologias": ["Flutter", "Dart", "Firebase", "State Management"],
+    "requirements": ["Experiencia en el desarrollo de aplicaciones con Flutter y Dart", "Experiencia con Firebase", "Conocimiento de patrones de gestión de estado"],
+    "responsibilities": ["Crear aplicaciones para iOS y Android desde una única base de código.", "Colaborar con diseñadores y product managers.", "Crear aplicaciones móviles fluidas y atractivas.", "Asegurar el rendimiento y la calidad de las aplicaciones."]
   },
   {
     "id": 19,
@@ -185,9 +239,12 @@
     "modalidad": "Remoto",
     "descripcion": "Digital Boost busca un Especialista en SEO y SEM para unirse a nuestro equipo de marketing digital de forma remota. Serás responsable de desarrollar y ejecutar estrategias de optimización para motores de búsqueda (SEO) y de gestionar campañas de publicidad online (SEM), principalmente en Google Ads. Buscamos a alguien con una mente analítica y experiencia demostrable en el uso de herramientas como Google Analytics y Ahrefs para mejorar la visibilidad y el tráfico de nuestros sitios web.",
     "company": "Digital Boost",
+    "company_description": "Digital Boost es una agencia de marketing digital que ayuda a las empresas a mejorar su visibilidad y tráfico en línea.",
     "location": "Global",
     "nivel": "Mid Senior",
-    "tecnologias": ["SEO", "SEM", "Google Analytics", "Google Ads", "Ahrefs"]
+    "tecnologias": ["SEO", "SEM", "Google Analytics", "Google Ads", "Ahrefs"],
+    "requirements": ["Experiencia demostrable en el uso de herramientas como Google Analytics y Ahrefs", "Experiencia en la gestión de campañas de SEO y SEM", "Mente analítica para mejorar la visibilidad y el tráfico"],
+    "responsibilities": ["Desarrollar y ejecutar estrategias de optimización para motores de búsqueda (SEO).", "Gestionar campañas de publicidad online (SEM).", "Mejorar la visibilidad y el tráfico de los sitios web.", "Analizar datos y presentar informes de rendimiento."]
   },
   {
     "id": 20,
@@ -195,8 +252,401 @@
     "modalidad": "Híbrido",
     "descripcion": "Product Vision, en Londres, está buscando un Product Manager Técnico Senior para liderar la estrategia y ejecución de nuestros productos de software. En este rol híbrido, serás el enlace clave entre el negocio y el equipo de desarrollo, definiendo la hoja de ruta del producto y priorizando funcionalidades. Se requiere una sólida comprensión técnica y experiencia trabajando con metodologías ágiles como Scrum.",
     "company": "Product Vision",
+    "company_description": "Product Vision es una empresa que se especializa en la gestión de productos de software, desde la concepción hasta el lanzamiento.",
     "location": "Venezuela",
     "nivel": "Senior",
-    "tecnologias": ["Scrum/Agile", "JIRA/Trello", "Análisis de Datos", "UX"]
+    "tecnologias": ["Scrum/Agile", "JIRA/Trello", "Análisis de Datos", "UX"],
+    "requirements": ["Sólida comprensión técnica y experiencia trabajando con metodologías ágiles", "Experiencia en la definición de la hoja de ruta del producto", "Habilidad para ser el enlace entre el negocio y el equipo de desarrollo"],
+    "responsibilities": ["Liderar la estrategia y ejecución de los productos de software.", "Definir la hoja de ruta del producto y priorizar funcionalidades.", "Ser el enlace clave entre el negocio y el equipo de desarrollo.", "Trabajar con metodologías ágiles como Scrum."]
+  },
+  {
+    "id": 21,
+    "titulo": "Desarrollador Python Jr.",
+    "modalidad": "Remoto",
+    "descripcion": "Buscamos un desarrollador Python para unirse a nuestro equipo.",
+    "company": "PyTech",
+    "company_description": "PyTech es una empresa de tecnología que se especializa en el desarrollo de soluciones con Python.",
+    "location": "Argentina",
+    "nivel": "Junior",
+    "tecnologias": ["Python", "Flask", "SQL"],
+    "requirements": ["Conocimiento de Python", "Experiencia con Flask", "Bases de datos SQL"],
+    "responsibilities": ["Desarrollar y mantener aplicaciones web con Python y Flask.", "Colaborar con el equipo para diseñar y construir nuevas funcionalidades.", "Escribir código limpio, eficiente y bien documentado.", "Participar en revisiones de código y contribuir a la mejora continua del equipo."]
+  },
+  {
+    "id": 22,
+    "titulo": "Frontend Developer",
+    "modalidad": "Híbrido",
+    "descripcion": "Oportunidad para un desarrollador Frontend con experiencia en React.",
+    "company": "React Solutions",
+    "company_description": "React Solutions es una empresa que se especializa en el desarrollo de interfaces de usuario con React.",
+    "location": "Mexico",
+    "nivel": "Mid Senior",
+    "tecnologias": ["JavaScript", "React", "Redux"],
+    "requirements": ["Experiencia en React", "Conocimiento de Redux", "HTML y CSS"],
+    "responsibilities": ["Desarrollar y mantener interfaces de usuario con React.", "Colaborar con el equipo de diseño para implementar interfaces atractivas.", "Optimizar el rendimiento de las aplicaciones frontend.", "Asegurar la compatibilidad entre navegadores y dispositivos."]
+  },
+  {
+    "id": 23,
+    "titulo": "Data Analyst",
+    "modalidad": "Presencial",
+    "descripcion": "Analista de datos para trabajar en nuestras oficinas.",
+    "company": "Data Insights",
+    "company_description": "Data Insights es una empresa de análisis de datos que ayuda a las empresas a tomar decisiones basadas en datos.",
+    "location": "España",
+    "nivel": "Junior",
+    "tecnologias": ["SQL", "Python", "Tableau"],
+    "requirements": ["SQL avanzado", "Experiencia con Python para datos", "Visualización de datos"],
+    "responsibilities": ["Analizar grandes conjuntos de datos para identificar tendencias y patrones.", "Crear visualizaciones de datos y dashboards para comunicar hallazgos.", "Colaborar con diferentes equipos para entender sus necesidades de datos.", "Presentar informes y recomendaciones a la dirección."]
+  },
+  {
+    "id": 24,
+    "titulo": "Backend Engineer",
+    "modalidad": "Remoto",
+    "descripcion": "Ingeniero de Backend para desarrollar microservicios.",
+    "company": "MicroServices Inc.",
+    "company_description": "MicroServices Inc. es una empresa que se especializa en la construcción de arquitecturas de microservicios.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["Java", "Spring Boot", "Kafka"],
+    "requirements": ["Experiencia con Java y Spring Boot", "Conocimiento de Kafka", "Arquitectura de microservicios"],
+    "responsibilities": ["Diseñar, desarrollar y mantener microservicios escalables.", "Colaborar con el equipo para definir la arquitectura de las soluciones.", "Asegurar la calidad y el rendimiento del código.", "Implementar y mantener pipelines de CI/CD."]
+  },
+  {
+    "id": 25,
+    "titulo": "DevOps Specialist",
+    "modalidad": "Híbrido",
+    "descripcion": "Especialista en DevOps para automatizar nuestros procesos.",
+    "company": "Automate Now",
+    "company_description": "Automate Now es una empresa que ayuda a las empresas a automatizar sus procesos de desarrollo y operaciones.",
+    "location": "Colombia",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Docker", "Kubernetes", "Jenkins"],
+    "requirements": ["Experiencia con Docker y Kubernetes", "CI/CD con Jenkins", "Scripting en Bash"],
+    "responsibilities": ["Automatizar y mejorar los procesos de CI/CD.", "Gestionar y mantener la infraestructura en la nube.", "Monitorear el rendimiento y la disponibilidad de los sistemas.", "Colaborar con los equipos de desarrollo para optimizar los flujos de trabajo."]
+  },
+  {
+    "id": 26,
+    "titulo": "Mobile Developer (Android)",
+    "modalidad": "Presencial",
+    "descripcion": "Desarrollador Android para nuestra app nativa.",
+    "company": "AppMakers",
+    "company_description": "AppMakers es una empresa de desarrollo de aplicaciones móviles que crea soluciones innovadoras para Android.",
+    "location": "EEUU",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Kotlin", "Android SDK", "Jetpack Compose"],
+    "requirements": ["Experiencia con Kotlin", "Conocimiento de Android SDK", "Jetpack Compose"],
+    "responsibilities": ["Desarrollar y mantener aplicaciones nativas para Android.", "Colaborar con el equipo de diseño para implementar interfaces de usuario.", "Asegurar el rendimiento y la calidad de las aplicaciones.", "Publicar y mantener las aplicaciones en la Google Play Store."]
+  },
+  {
+    "id": 27,
+    "titulo": "Full Stack Developer",
+    "modalidad": "Remoto",
+    "descripcion": "Desarrollador Full Stack con experiencia en MERN.",
+    "company": "MERN Experts",
+    "company_description": "MERN Experts es una empresa que se especializa en el desarrollo de aplicaciones web con la pila MERN.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["MongoDB", "Express", "React", "Node.js"],
+    "requirements": ["Experiencia en MERN", "Desarrollo de APIs REST", "Bases de datos NoSQL"],
+    "responsibilities": ["Desarrollar y mantener aplicaciones web con la pila MERN.", "Diseñar y construir APIs RESTful.", "Colaborar con el equipo para definir la arquitectura de las soluciones.", "Asegurar la calidad y el rendimiento del código."]
+  },
+  {
+    "id": 28,
+    "titulo": "UI Designer",
+    "modalidad": "Híbrido",
+    "descripcion": "Diseñador de interfaces para crear experiencias de usuario.",
+    "company": "Creative Minds",
+    "company_description": "Creative Minds es una agencia de diseño que se especializa en la creación de experiencias de usuario atractivas y funcionales.",
+    "location": "Argentina",
+    "nivel": "Junior",
+    "tecnologias": ["Figma", "Adobe XD", "UI/UX Principles"],
+    "requirements": ["Experiencia con Figma", "Principios de diseño UI/UX", "Creación de prototipos"],
+    "responsibilities": ["Diseñar interfaces de usuario para aplicaciones web y móviles.", "Crear prototipos y wireframes para comunicar ideas de diseño.", "Colaborar con los equipos de desarrollo para implementar los diseños.", "Realizar pruebas de usabilidad y recoger feedback de los usuarios."]
+  },
+  {
+    "id": 29,
+    "titulo": "QA Automation Engineer",
+    "modalidad": "Presencial",
+    "descripcion": "Ingeniero de QA para automatizar pruebas.",
+    "company": "Quality Assurance",
+    "company_description": "Quality Assurance es una empresa que se especializa en la automatización de pruebas de software.",
+    "location": "España",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Selenium", "Cypress", "JIRA"],
+    "requirements": ["Experiencia con Selenium o Cypress", "Automatización de pruebas", "Reporte de bugs"],
+    "responsibilities": ["Diseñar y desarrollar scripts de automatización de pruebas.", "Ejecutar pruebas automatizadas y analizar los resultados.", "Reportar y dar seguimiento a los errores encontrados.", "Colaborar con los equipos de desarrollo para mejorar la calidad del software."]
+  },
+  {
+    "id": 30,
+    "titulo": "Cloud Engineer (AWS)",
+    "modalidad": "Remoto",
+    "descripcion": "Ingeniero de nube especializado en AWS.",
+    "company": "AWS Solutions",
+    "company_description": "AWS Solutions es una empresa que se especializa en la implementación y gestión de soluciones en la nube de AWS.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["AWS", "Terraform", "EC2", "S3"],
+    "requirements": ["Experiencia con AWS", "Infraestructura como código (Terraform)", "Servicios de AWS (EC2, S3)"],
+    "responsibilities": ["Diseñar, implementar y mantener la infraestructura en AWS.", "Automatizar la gestión de la infraestructura con Terraform.", "Monitorear el rendimiento y la seguridad de la infraestructura.", "Colaborar con los equipos de desarrollo para optimizar el uso de los servicios de AWS."]
+  },
+  {
+    "id": 31,
+    "titulo": "Game Developer",
+    "modalidad": "Híbrido",
+    "descripcion": "Desarrollador de videojuegos con experiencia en Unity.",
+    "company": "Game Studios",
+    "company_description": "Game Studios es un estudio de desarrollo de videojuegos que crea experiencias de juego inmersivas y emocionantes.",
+    "location": "Perú",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Unity", "C#", "3D Graphics"],
+    "requirements": ["Experiencia con Unity y C#", "Desarrollo de mecánicas de juego", "Gráficos 3D"],
+    "responsibilities": ["Desarrollar y mantener la lógica del juego y las mecánicas.", "Colaborar con el equipo de diseño para implementar nuevas funcionalidades.", "Optimizar el rendimiento del juego para diferentes plataformas.", "Participar en el proceso de creación de prototipos y pruebas de juego."]
+  },
+  {
+    "id": 32,
+    "titulo": "Machine Learning Engineer",
+    "modalidad": "Presencial",
+    "descripcion": "Ingeniero de Machine Learning para modelos predictivos.",
+    "company": "AI Future",
+    "company_description": "AI Future es una empresa de inteligencia artificial que desarrolla soluciones de vanguardia para resolver problemas complejos.",
+    "location": "Alemania",
+    "nivel": "Senior",
+    "tecnologias": ["Python", "TensorFlow", "Scikit-learn"],
+    "requirements": ["Experiencia con TensorFlow", "Modelos de Machine Learning", "Python para ciencia de datos"],
+    "responsibilities": ["Diseñar, desarrollar y desplegar modelos de machine learning.", "Investigar y aplicar nuevos algoritmos y técnicas de machine learning.", "Colaborar con los equipos de producto para identificar oportunidades de IA.", "Mantener y mejorar los modelos de machine learning existentes."]
+  },
+  {
+    "id": 33,
+    "titulo": "Blockchain Developer",
+    "modalidad": "Remoto",
+    "descripcion": "Desarrollador Blockchain para crear DApps.",
+    "company": "Web3 Innovators",
+    "company_description": "Web3 Innovators es un laboratorio de investigación y desarrollo de blockchain que está a la vanguardia de la revolución Web3.",
+    "location": "Global",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Solidity", "Ethereum", "Hardhat"],
+    "requirements": ["Experiencia con Solidity", "Desarrollo de Smart Contracts", "Ecosistema Ethereum"],
+    "responsibilities": ["Diseñar y desarrollar contratos inteligentes (smart contracts).", "Construir y mantener aplicaciones descentralizadas (DApps).", "Colaborar con el equipo para definir la arquitectura de las soluciones.", "Investigar y aplicar nuevas tecnologías y protocolos de blockchain."]
+  },
+  {
+    "id": 34,
+    "titulo": "Solutions Architect",
+    "modalidad": "Híbrido",
+    "descripcion": "Arquitecto de soluciones para diseñar sistemas escalables.",
+    "company": "Architecture Co.",
+    "company_description": "Architecture Co. es una empresa que se especializa en el diseño de arquitecturas de software escalables y resilientes.",
+    "location": "Chile",
+    "nivel": "Senior",
+    "tecnologias": ["Cloud Computing", "Microservices", "System Design"],
+    "requirements": ["Diseño de arquitecturas de software", "Experiencia en la nube", "Patrones de diseño"],
+    "responsibilities": ["Diseñar y documentar arquitecturas de software para proyectos complejos.", "Colaborar con los equipos de desarrollo para asegurar la correcta implementación de la arquitectura.", "Evaluar y seleccionar tecnologías y herramientas adecuadas para cada proyecto.", "Garantizar que las soluciones cumplan con los requisitos de escalabilidad, rendimiento y seguridad."]
+  },
+  {
+    "id": 35,
+    "titulo": ".NET Developer",
+    "modalidad": "Presencial",
+    "descripcion": "Desarrollador .NET para aplicaciones empresariales.",
+    "company": "Enterprise Software",
+    "company_description": "Enterprise Software es una empresa de software que desarrolla soluciones empresariales de alto rendimiento utilizando la pila de Microsoft.",
+    "location": "EEUU",
+    "nivel": "Mid Senior",
+    "tecnologias": [".NET", "C#", "Azure"],
+    "requirements": ["Experiencia con .NET y C#", "Desarrollo en Azure", "Bases de datos SQL"],
+    "responsibilities": ["Desarrollar y mantener aplicaciones empresariales con .NET y C#.", "Colaborar con el equipo para diseñar y construir nuevas funcionalidades.", "Asegurar la calidad y el rendimiento del código.", "Participar en el ciclo de vida completo del desarrollo de software."]
+  },
+  {
+    "id": 36,
+    "titulo": "IT Support Specialist",
+    "modalidad": "Remoto",
+    "descripcion": "Especialista de soporte técnico para asistir a nuestros clientes.",
+    "company": "Support Heroes",
+    "company_description": "Support Heroes es una empresa que ofrece servicios de soporte técnico a nivel mundial, ayudando a los usuarios a resolver sus problemas técnicos.",
+    "location": "Global",
+    "nivel": "Junior",
+    "tecnologias": ["Troubleshooting", "Customer Service", "Zendesk"],
+    "requirements": ["Habilidades de troubleshooting", "Atención al cliente", "Manejo de tickets de soporte"],
+    "responsibilities": ["Proporcionar soporte técnico a los clientes a través de diferentes canales.", "Diagnosticar y resolver problemas técnicos de hardware y software.", "Documentar y dar seguimiento a los problemas de los clientes.", "Contribuir a la base de conocimientos de la empresa."]
+  },
+  {
+    "id": 37,
+    "titulo": "Java Developer",
+    "modalidad": "Híbrido",
+    "descripcion": "Desarrollador Java para el mantenimiento de sistemas legados.",
+    "company": "Legacy Systems",
+    "company_description": "Legacy Systems es una empresa que se especializa en el mantenimiento y la modernización de sistemas de software legados.",
+    "location": "Portugal",
+    "nivel": "Senior",
+    "tecnologias": ["Java", "J2EE", "Oracle DB"],
+    "requirements": ["Experiencia con Java y J2EE", "Bases de datos Oracle", "Mantenimiento de software"],
+    "responsibilities": ["Mantener y mejorar sistemas de software legados escritos en Java.", "Migrar funcionalidades de sistemas legados a plataformas modernas.", "Colaborar con el equipo para asegurar la estabilidad y el rendimiento de los sistemas.", "Documentar los sistemas y los cambios realizados."]
+  },
+  {
+    "id": 38,
+    "titulo": "Flutter Developer",
+    "modalidad": "Presencial",
+    "descripcion": "Desarrollador Flutter para crear aplicaciones móviles.",
+    "company": "Mobile First",
+    "company_description": "Mobile First es una empresa de desarrollo de aplicaciones móviles que se especializa en la creación de soluciones multiplataforma con Flutter.",
+    "location": "Venezuela",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Flutter", "Dart", "Firebase"],
+    "requirements": ["Experiencia con Flutter y Dart", "Conexión a APIs REST", "Publicación en tiendas de apps"],
+    "responsibilities": ["Desarrollar y mantener aplicaciones móviles con Flutter.", "Colaborar con el equipo de diseño para implementar interfaces de usuario.", "Asegurar el rendimiento y la calidad de las aplicaciones.", "Publicar y mantener las aplicaciones en la App Store y Google Play."]
+  },
+  {
+    "id": 39,
+    "titulo": "SEO Specialist",
+    "modalidad": "Remoto",
+    "descripcion": "Especialista en SEO para mejorar nuestro posicionamiento.",
+    "company": "Top Rank",
+    "company_description": "Top Rank es una agencia de marketing digital que ayuda a las empresas a mejorar su posicionamiento en los motores de búsqueda.",
+    "location": "Global",
+    "nivel": "Mid Senior",
+    "tecnologias": ["SEO", "Google Analytics", "Keyword Research"],
+    "requirements": ["Experiencia en SEO on-page y off-page", "Análisis de métricas", "Investigación de palabras clave"],
+    "responsibilities": ["Desarrollar y ejecutar estrategias de SEO para aumentar el tráfico orgánico.", "Realizar investigaciones de palabras clave y análisis de la competencia.", "Optimizar el contenido del sitio web y la estructura para los motores de búsqueda.", "Monitorear y analizar el rendimiento del SEO y generar informes."]
+  },
+  {
+    "id": 40,
+    "titulo": "Technical Product Manager",
+    "modalidad": "Híbrido",
+    "descripcion": "Product Manager con background técnico.",
+    "company": "Tech Products",
+    "company_description": "Tech Products es una empresa que se especializa en la gestión de productos de software, desde la concepción hasta el lanzamiento.",
+    "location": "Mexico",
+    "nivel": "Senior",
+    "tecnologias": ["Agile", "Roadmap Planning", "JIRA"],
+    "requirements": ["Experiencia como Product Manager", "Conocimientos técnicos de desarrollo de software", "Metodologías ágiles"],
+    "responsibilities": ["Definir la visión y la estrategia del producto.", "Gestionar el backlog del producto y priorizar las funcionalidades.", "Colaborar con los equipos de desarrollo, diseño y marketing.", "Analizar el mercado y la competencia para identificar oportunidades."]
+  },
+  {
+    "id": 41,
+    "titulo": "Junior Web Developer",
+    "modalidad": "Presencial",
+    "descripcion": "Desarrollador web junior para unirse a nuestro equipo.",
+    "company": "Web Devs",
+    "company_description": "Web Devs es una empresa de desarrollo web que crea sitios y aplicaciones web a medida para sus clientes.",
+    "location": "España",
+    "nivel": "Junior",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "requirements": ["Conocimientos de HTML, CSS y JavaScript", "Ganas de aprender", "Trabajo en equipo"],
+    "responsibilities": ["Desarrollar y mantener sitios web y aplicaciones web.", "Colaborar con el equipo para diseñar y construir nuevas funcionalidades.", "Aprender y aplicar nuevas tecnologías y buenas prácticas.", "Participar en el proceso de pruebas y depuración de código."]
+  },
+  {
+    "id": 42,
+    "titulo": "Senior Backend Developer",
+    "modalidad": "Remoto",
+    "descripcion": "Desarrollador de backend senior con experiencia en Node.js.",
+    "company": "Node Experts",
+    "company_description": "Node Experts es una empresa que se especializa en el desarrollo de aplicaciones de backend con Node.js.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["Node.js", "Express", "MongoDB"],
+    "requirements": ["Experiencia con Node.js", "Desarrollo de APIs RESTful", "Bases de datos NoSQL"],
+    "responsibilities": ["Diseñar, desarrollar y mantener APIs RESTful escalables.", "Colaborar con el equipo para definir la arquitectura de las soluciones.", "Asegurar la calidad y el rendimiento del código.", "Implementar y mantener pipelines de CI/CD."]
+  },
+  {
+    "id": 43,
+    "titulo": "Mid-Level Frontend Developer",
+    "modalidad": "Híbrido",
+    "descripcion": "Desarrollador frontend con experiencia en Angular.",
+    "company": "Angular Solutions",
+    "company_description": "Angular Solutions es una empresa que se especializa en el desarrollo de interfaces de usuario con Angular.",
+    "location": "Colombia",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Angular", "TypeScript", "RxJS"],
+    "requirements": ["Experiencia con Angular", "Conocimiento de TypeScript", "Programación reactiva con RxJS"],
+    "responsibilities": ["Desarrollar y mantener interfaces de usuario con Angular.", "Colaborar con el equipo de diseño para implementar interfaces atractivas.", "Optimizar el rendimiento de las aplicaciones frontend.", "Asegurar la compatibilidad entre navegadores y dispositivos."]
+  },
+  {
+    "id": 44,
+    "titulo": "Junior Data Scientist",
+    "modalidad": "Presencial",
+    "descripcion": "Científico de datos junior para analizar datos de clientes.",
+    "company": "Data Corp",
+    "company_description": "Data Corp es una empresa de análisis de datos que ayuda a las empresas a tomar decisiones basadas en datos.",
+    "location": "EEUU",
+    "nivel": "Junior",
+    "tecnologias": ["Python", "Pandas", "SQL"],
+    "requirements": ["Conocimiento de Python y Pandas", "Consultas SQL", "Análisis estadístico"],
+    "responsibilities": ["Analizar datos de clientes para identificar tendencias y patrones.", "Crear modelos predictivos simples para resolver problemas de negocio.", "Colaborar con diferentes equipos para entender sus necesidades de datos.", "Presentar informes y visualizaciones de datos a los stakeholders."]
+  },
+  {
+    "id": 45,
+    "titulo": "Senior DevOps Engineer",
+    "modalidad": "Remoto",
+    "descripcion": "Ingeniero DevOps senior para liderar nuestro equipo de infraestructura.",
+    "company": "Infra Leaders",
+    "company_description": "Infra Leaders es una empresa que se especializa en la gestión de infraestructura en la nube y la automatización de procesos de DevOps.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["AWS", "Kubernetes", "Terraform"],
+    "requirements": ["Experiencia liderando equipos de DevOps", "Dominio de AWS", "Orquestación con Kubernetes"],
+    "responsibilities": ["Liderar y mentorizar al equipo de infraestructura.", "Diseñar y mantener una infraestructura en la nube segura y escalable.", "Automatizar los procesos de CI/CD y el despliegue de aplicaciones.", "Garantizar la alta disponibilidad y el rendimiento de los sistemas."]
+  },
+  {
+    "id": 46,
+    "titulo": "iOS Developer",
+    "modalidad": "Híbrido",
+    "descripcion": "Desarrollador iOS para crear nuevas funcionalidades.",
+    "company": "Apple Fans",
+    "company_description": "Apple Fans es una empresa de desarrollo de aplicaciones móviles que crea soluciones innovadoras y de alta calidad para iOS.",
+    "location": "Argentina",
+    "nivel": "Mid Senior",
+    "tecnologias": ["Swift", "UIKit", "Core Data"],
+    "requirements": ["Experiencia con Swift y UIKit", "Manejo de Core Data", "Consumo de APIs"],
+    "responsibilities": ["Desarrollar y mantener nuevas funcionalidades para la aplicación de iOS.", "Colaborar con el equipo de diseño para implementar interfaces de usuario.", "Asegurar el rendimiento y la calidad de la aplicación.", "Participar en el proceso de pruebas y depuración de código."]
+  },
+  {
+    "id": 47,
+    "titulo": "Database Administrator",
+    "modalidad": "Presencial",
+    "descripcion": "Administrador de bases de datos para gestionar nuestros sistemas.",
+    "company": "DB Masters",
+    "company_description": "DB Masters ofrece servicios de gestión y administración de bases de datos para empresas de todo el mundo.",
+    "location": "España",
+    "nivel": "Senior",
+    "tecnologias": ["PostgreSQL", "MySQL", "Backup and Recovery"],
+    "requirements": ["Experiencia administrando PostgreSQL y MySQL", "Estrategias de backup y recuperación", "Optimización de consultas"],
+    "responsibilities": ["Administrar y mantener las bases de datos de la empresa.", "Garantizar la seguridad y la integridad de los datos.", "Implementar y gestionar políticas de backup y recuperación.", "Optimizar el rendimiento de las bases de datos."]
+  },
+  {
+    "id": 48,
+    "titulo": "C++ Game Programmer",
+    "modalidad": "Remoto",
+    "descripcion": "Programador de C++ para un nuevo juego AAA.",
+    "company": "AAA Games",
+    "company_description": "AAA Games es un estudio de desarrollo de videojuegos que crea experiencias de juego inmersivas y de alta calidad.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["C++", "Unreal Engine", "Physics Engines"],
+    "requirements": ["Experiencia con C++ y Unreal Engine", "Desarrollo de motores de físicas", "Optimización de rendimiento"],
+    "responsibilities": ["Programar la lógica del juego y las mecánicas principales.", "Desarrollar y mantener el motor de físicas del juego.", "Optimizar el rendimiento del juego para consolas y PC de alta gama.", "Colaborar con el equipo de diseño para implementar nuevas funcionalidades."]
+  },
+  {
+    "id": 49,
+    "titulo": "QA Tester",
+    "modalidad": "Híbrido",
+    "descripcion": "Tester de QA para asegurar la calidad de nuestros productos.",
+    "company": "Bug Finders",
+    "company_description": "Bug Finders es una empresa de aseguramiento de la calidad que garantiza que el software de nuestros clientes cumpla con los más altos estándares.",
+    "location": "Perú",
+    "nivel": "Junior",
+    "tecnologias": ["Manual Testing", "JIRA", "Test Cases"],
+    "requirements": ["Experiencia en testing manual", "Creación de casos de prueba", "Reporte de incidencias en JIRA"],
+    "responsibilities": ["Ejecutar casos de prueba manuales para identificar errores y problemas.", "Documentar y reportar los errores encontrados en JIRA.", "Colaborar con los desarrolladores para reproducir y solucionar los errores.", "Participar en el proceso de mejora continua de la calidad."]
+  },
+  {
+    "id": 50,
+    "titulo": "Senior Machine Learning Engineer",
+    "modalidad": "Remoto",
+    "descripcion": "Ingeniero de Machine Learning para investigar nuevos algoritmos.",
+    "company": "ML Research",
+    "company_description": "ML Research es una empresa de investigación en inteligencia artificial que se enfoca en el desarrollo de nuevos algoritmos de machine learning.",
+    "location": "Global",
+    "nivel": "Senior",
+    "tecnologias": ["PyTorch", "Python", "Deep Learning"],
+    "requirements": ["Experiencia con PyTorch", "Investigación en Deep Learning", "Publicaciones científicas (plus)"],
+    "responsibilities": ["Investigar y desarrollar nuevos algoritmos de machine learning.", "Implementar y evaluar modelos de deep learning en problemas complejos.", "Publicar los resultados de la investigación en conferencias y revistas científicas.", "Colaborar con otros investigadores para avanzar en el campo del machine learning."]
   }
 ]
