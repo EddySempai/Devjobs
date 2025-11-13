@@ -1,4 +1,4 @@
-@import url('../search/search.css');
+@import url('search.css');
 
 small {
     padding: 3rem;
@@ -29,8 +29,7 @@ main > header {
     }
 }
 main {
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
     max-width: 56rem;
 
 }
@@ -69,9 +68,6 @@ button {
         background-color: var(--principal--color);
         color: white;
     }
-    &:last-child{
-        margin-bottom: 6rem;
-    }
 }
 p {
     color: var(--color--blur);
@@ -93,9 +89,9 @@ main > section {
     stroke-width: 4;
     }
     li{
-        display: flex;
-        align-items: center;
-        gap: 3rem;
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        gap: 1rem;
         color: var(--color--blur);
         margin-bottom: 1.2rem;
     }
@@ -106,12 +102,11 @@ main > section {
 }
 footer {
     display: flex;
-    justify-content: end;
-    height: 5rem;
-    div {
-        display: flex;
+    justify-content: center;
+    height: 10rem;
+    #last-button {
         justify-content: center;
-        align-items: center;
-        width: 43rem;
+        margin-bottom: 5rem;
+        margin-top: 0;
     }
 }
